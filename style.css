@@ -18,10 +18,15 @@ body
     background-color: #E8E9EB;
     border-radius: 100px;
     border: 3px solid #fff;
+    overflow: hidden;
 }
+ 
+
+/* face */
 
 .face
 {
+    z-index: 5;
     position: relative;
     top: 50px; left: 70px;
     width: 80px; height: 100px;
@@ -76,5 +81,57 @@ body
     width: 30px; height: 15px;
     background-color: #222;
     border-radius: 0 0 100px 100px;
+    overflow: hidden;
 }
 
+.tongue
+{
+    position: absolute;
+    top: 5px; left: 8px;
+    background-color: #F6828C;
+    width: 30px; height: 20px;
+    border-radius: 100% ;
+}
+
+.blush
+{
+    position: absolute;
+    top: 59px; left: 6px;
+    width: 10px; height: 7px;
+    background-color: #E3879E;
+    border-radius: 100px;
+}
+
+.blush::before
+{
+    position: absolute;
+    content: "";
+    top: 2px; left: 58px;
+    width: 10px; height: 7px;
+    background-color: #E3879E;
+    border-radius: 100px;
+}
+
+
+
+   /* body */
+
+.neck
+{
+    z-index: 4;
+    position: relative;
+    top: 29px;left: 97px;
+    width: 30px; height: 30px;
+    background-color: #F0BEAF;
+    border-radius: 100px;
+}
+
+.body
+{
+    z-index: 1;
+    position: relative;
+    top: 19px; left: 60px;
+    width: 100px; height: 150px;
+    background-color: #E3879E;
+    border-radius: 50px;
+}
