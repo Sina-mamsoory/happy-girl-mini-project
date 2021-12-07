@@ -1,0 +1,14 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.face
+{
+    width: 70px; height: 100px;
+    background: #F0BEAF;
+    border-radius: 100px;
+}
