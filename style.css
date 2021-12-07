@@ -1,3 +1,8 @@
+body
+{
+    background: #80ff7c;
+}
+
 .container
 {
     display: flex;
@@ -6,9 +11,19 @@
     height: 100vh;
 }
 
+.profile
+{
+    position: relative;
+    width: 200px; height: 200px;
+    background-color: #E8E9EB;
+    border-radius: 100px;
+    border: 3px solid #fff;
+}
+
 .face
 {
     position: relative;
+    top: 50px; left: 70px;
     width: 80px; height: 100px;
     background: #F0BEAF;
     border-radius: 100px;
@@ -43,5 +58,15 @@
     top: 0px; left: 48px;
     width: 14px; height: 2px;
     background-color: #222;
-    
 }
+
+.nose
+{
+    position: absolute;
+    top: 42px; left: 36px;
+    width: 8px; height: 14px;
+    background: #DB9B99;
+    border-radius: 100px;
+
+}
+
