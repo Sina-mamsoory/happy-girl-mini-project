@@ -8,7 +8,40 @@
 
 .face
 {
-    width: 70px; height: 100px;
+    position: relative;
+    width: 80px; height: 100px;
     background: #F0BEAF;
     border-radius: 100px;
+}
+
+.eyes-1, .eyes-2
+{
+    position: absolute;
+    width: 10px; height: 10px;
+    background: #222;
+    border-radius: 50px;
+    top: 40px; left: 12px;
+}
+
+.eyes-2
+{
+    left: 57px;
+}
+
+.eyebrow
+{
+    position: absolute;
+    top: 34px; left: 8px;
+    width: 14px; height: 2px;
+    background-color: #222;
+}
+
+.eyebrow::before
+{
+    position: absolute;
+    content: "";
+    top: 0px; left: 48px;
+    width: 14px; height: 2px;
+    background-color: #222;
+    
 }
